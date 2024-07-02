@@ -41,7 +41,7 @@ def pic_command(client, message: Message):
     try:
         response = requests.get(unsplash_url)
         if response.status_code == 200:
-            client.send_photo(message.chat.id, photo=unsplash_url, caption=f"✦ ʜᴇʀᴇ's ᴀ ᴘɪᴄᴛᴜʀᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ➠ {name}.\n\n✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ s ɪ ᴛ ᴀ ʀ ᴀ♡゙" )
+            client.send_photo(message.chat.id, photo=unsplash_url, caption=f"✦ ʜᴇʀᴇ's ᴀ ᴘɪᴄᴛᴜʀᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ➠ {name}.\n\n✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ 😈❦𝕤𝕚𝕃𝕖ℕ𝕥 𝕤𝕄𝕚𝕃𝕖❦😈" )
         else:
             client.send_message(message.chat.id, "✦ Failed to fetch image.")
     except requests.RequestException as e:
