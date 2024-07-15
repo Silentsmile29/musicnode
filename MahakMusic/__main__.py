@@ -50,7 +50,7 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("MahakMusic").info(
-        "✦ EDIT BY ➥ 😈❦𝕤𝕚𝕃𝕖ℕ𝕥 𝕤𝕄𝕚𝕃𝕖❦😈"
+        "✦ EDIT BY ➥ 💥 ⛥ 𝐂𝐀𝐏𝐓𝐀𝐈𝐍 F ⛥"
     )
     await idle()
     await app.stop()
