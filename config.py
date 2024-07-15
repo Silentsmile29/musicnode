@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Silent_Smile_04")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Captainf1")
 
 #❖  Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME", "Hazel_X_Music_Bot")
@@ -53,8 +53,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+7K0IMwbLvAQwYmY1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7K0IMwbLvAQwYmY1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/movies_club3")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/movies_club7")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", "True"))
